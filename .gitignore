@@ -1,0 +1,25 @@
+# Local credentials and configuration
+config.cfg
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+
+# Password manager runtime database
+/PasswordManagerGUI/data.json
+
+# Local Python environments and editor metadata
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated letters
+/MailMerger/Output/
